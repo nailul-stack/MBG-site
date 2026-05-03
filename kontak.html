@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - Badan Gizi Nasional</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen flex items-center justify-center p-6">
+
+    <!-- Card Kontak -->
+    <div class="bg-white p-8 md:p-12 rounded-[2.5rem] shadow-xl shadow-blue-900/5 max-w-lg w-full border border-slate-100">
+        
+        <!-- Header Halaman -->
+        <div class="flex flex-col items-center text-center mb-10 pb-8 border-b border-slate-100">
+            <img src="logo mbg.jpeg" alt="Logo" class="w-16 h-16 mb-4 rounded-full shadow-sm">
+            <h1 class="font-black text-3xl tracking-tighter text-slate-900 mb-2">Pusat Kontak</h1>
+            <p class="text-slate-500 text-sm">Hubungi Badan Gizi Nasional untuk informasi lebih lanjut mengenai program.</p>
+        </div>
+        
+        <!-- List Kontak -->
+        <ul class="space-y-6 text-slate-600">
+            <li class="flex gap-4 items-start p-4 hover:bg-slate-50 rounded-2xl transition-colors">
+                <div class="bg-blue-50 p-3 rounded-xl text-blue-600 shrink-0">
+                    <i data-lucide="map-pin" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-1">Alamat Kantor</h3>
+                    <p class="text-sm leading-relaxed">Gedung BGN, Kuningan Timur, Setiabudi, Jakarta Selatan 12950</p>
+                </div>
+            </li>
+            
+            <li class="flex gap-4 items-start p-4 hover:bg-slate-50 rounded-2xl transition-colors">
+                <div class="bg-blue-50 p-3 rounded-xl text-blue-600 shrink-0">
+                    <i data-lucide="mail" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-1">Email Resmi</h3>
+                    <p class="text-sm">kontak@bgn.go.id</p>
+                </div>
+            </li>
+            
+            <li class="flex gap-4 items-start p-4 hover:bg-slate-50 rounded-2xl transition-colors">
+                <div class="bg-blue-50 p-3 rounded-xl text-blue-600 shrink-0">
+                    <i data-lucide="phone" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-1">Layanan Telepon</h3>
+                    <p class="text-sm">1500-XXX (Bebas Pulsa)</p>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Tombol Kembali -->
+        <div class="mt-10 pt-2">
+            <!-- Pastikan href mengarah kembali ke nama file utama Anda (misal: index.html) -->
+            <a href="WEB MBG.html" class="w-full bg-slate-900 hover:bg-blue-600 text-white py-4 rounded-full font-bold transition-all shadow-lg flex justify-center items-center gap-2">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Kembali ke Beranda
+            </a>
+        </div>
+    </div>
+
+    <!-- Inisialisasi Icon -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
